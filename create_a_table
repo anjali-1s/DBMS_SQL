@@ -1,0 +1,9 @@
+-- creating a table student                  
+
+CREATE TABLE student (
+     student_name VARCHAR(25),
+     student_id INT(15),
+     DOB DATE,
+     DOJ DATE,
+     fee INT(10)
+  );
