@@ -7,3 +7,19 @@ CREATE TABLE student (
      DOJ DATE,
      fee INT(10)
   );
+
+-- insert into table student
+
+INSERT INTO student 
+(student_name,student_id,DOB,DOJ,fee) VALUES
+('Anjali',1010,05-09-2003,12-08-2022,6500),
+('Ayushi',1209,16-09-2002,13-08-2022,7000);
+
+
+-- to show the table
+
+SELECT * FROM student;
+
+-- to show all the names from student table
+
+select student_name from student;
