@@ -23,3 +23,6 @@ SELECT * FROM student;
 -- to show all the names from student table
 
 select student_name from student;
+
+-- to show all fees from the student table
+select fee from student;
