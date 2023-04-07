@@ -1,0 +1,3 @@
+-- write a sql query to fetch "first_name" from worker table in upper case.
+
+select UPPER(first_name )  from WORKER;
