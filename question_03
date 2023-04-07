@@ -1,0 +1,3 @@
+-- write a sql query to fetch unique values of department from worker table
+
+select DISTINCT DEPARTMENT from WORKER;
