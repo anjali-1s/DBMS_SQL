@@ -1,0 +1,5 @@
+-- write a sql query to print the FIRST_NAME and LAST_NAME from WORKER table into a single column COMPLETE_NAME.
+
+-- A space char should seperate them.
+
+select CONCAT (FIRST_NAME, LAST_NAME) as COMPLETE_NAME from WORKER;
