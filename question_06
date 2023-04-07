@@ -1,0 +1,3 @@
+-- write a sql query to print the FIRST_NAME from WORKER table after removing white spaces from the right side.
+
+select RTRIM (FIRST_NAME) from WORKER;
