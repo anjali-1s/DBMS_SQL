@@ -1,0 +1,3 @@
+-- write a sql query that fetches the unique valus of DEPARTMENT from WORKER table and prints its length.
+
+select DISTINCT DEPARTMENT , LENGTH (DEPARTMENT) from worker;
